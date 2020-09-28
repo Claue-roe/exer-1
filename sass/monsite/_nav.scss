@@ -1,8 +1,18 @@
-.nav-menu li a{
-    font-weight: 1000;
-}
-.nav-menu li{ 
-    margin: 5px;
+.nav-menu li{
+    font-weight: 1000; 
     background-color: salmon;
-    color:blue;
+}
+
+.nav-menu:hover li a{
+    color: slateblue;
+}
+
+.nav-menu li a{ 
+    margin: 5px;
+    color:purple;
+}
+
+.nav-menu::before li a{ 
+    margin: 5px;
+    color:blueviolet;
 }

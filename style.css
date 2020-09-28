@@ -938,7 +938,9 @@ textarea {
 /* monsite
 --------------------------------------------- */
 .site-title {
-  font-size: 5em;
+  font-size: 8em;
+  font-weight: 700;
+  opacity: 0,5;
 }
 
 .site-title a {
@@ -952,13 +954,22 @@ textarea {
   font-size: 1em;
 }
 
-.nav-menu li a {
+.nav-menu li {
   font-weight: 1000;
+  background-color: salmon;
 }
 
-.nav-menu li {
+.nav-menu:hover li a {
+  color: slateblue;
+}
+
+.nav-menu li a {
   margin: 5px;
-  background-color: salmon;
-  color: blue;
+  color: purple;
+}
+
+.nav-menu::before li a {
+  margin: 5px;
+  color: blueviolet;
 }
 /*# sourceMappingURL=style.css.map */
