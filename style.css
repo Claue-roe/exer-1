@@ -953,13 +953,9 @@ textarea {
   font-size: 1em;
 }
 
-.nav-menu li {
+.nav-menu {
   font-weight: 1000;
   background-color: salmon;
-}
-
-.nav-menu:hover li a {
-  color: slateblue;
 }
 
 .nav-menu li a {
@@ -967,8 +963,23 @@ textarea {
   color: purple;
 }
 
-.nav-menu::before li a {
-  margin: 5px;
-  color: blueviolet;
+#recent-posts-2 h2 {
+  color: teal;
+}
+
+#recent-comments-2 h2 {
+  color: #d4ae5d;
+}
+
+#archives-2 h2 {
+  color: #2d0080;
+}
+
+#categories-2 h2 {
+  color: #803e00;
+}
+
+#meta-2 h2 {
+  color: #c26262;
 }
 /*# sourceMappingURL=style.css.map */
