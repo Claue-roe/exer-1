@@ -952,7 +952,7 @@ textarea {
   font-size: 1em;
 }
 
-.site-nav {
-  margin: 10px;
+.nav-menu li a {
+  margin: 5px;
 }
 /*# sourceMappingURL=style.css.map */
