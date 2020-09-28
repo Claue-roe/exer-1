@@ -938,15 +938,21 @@ textarea {
 /* monsite
 --------------------------------------------- */
 .site-title {
-  font-size: 8em;
+  font-size: 5em;
 }
 
 .site-title a {
-  color: red;
+  color: purple;
 }
 
 .site {
-  width: 85%;
+  width: 95%;
   margin: 0 auto;
+  background-color: mediumpurple;
+  font-size: 1em;
+}
+
+.site-nav {
+  margin: 10px;
 }
 /*# sourceMappingURL=style.css.map */
